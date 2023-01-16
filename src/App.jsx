@@ -19,6 +19,7 @@ function App() {
         and share
       </h5>
       <input
+        autoFocus={false}
         name="roomID"
         value={value}
         onInput={(e) => setValue(e.target.value)}

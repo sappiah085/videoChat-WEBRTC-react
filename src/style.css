@@ -39,6 +39,7 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  gap: 1em;
   place-items: center;
 }
 #controls {
@@ -68,6 +69,7 @@ body {
   top: 10px;
   max-width: 400px;
   width: 90%;
+  object-fit: cover;
   max-height: 200px;
   border-radius: 12px;
 }
@@ -104,7 +106,6 @@ img {
   .large {
     position: relative;
     width: 100%;
-    height: auto;
     left: 0%;
     right: 0%;
     background-color: black;
@@ -112,6 +113,7 @@ img {
     z-index: 2;
     position: absolute;
     max-width: 400px;
+    height: 200px;
     width: 90%;
     object-fit: fill;
     border-radius: 12px;
