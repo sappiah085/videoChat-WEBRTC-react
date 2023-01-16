@@ -69,7 +69,6 @@ body {
   max-width: 400px;
   width: 90%;
   max-height: 200px;
-  object-fit: cover;
   border-radius: 12px;
 }
 #controls button {
